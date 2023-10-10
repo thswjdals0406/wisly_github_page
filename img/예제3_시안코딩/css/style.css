@@ -1,0 +1,26 @@
+@charset "UTF-8";
+:root {
+   --primary-text-color:#666;
+   --content-width:1320px;
+   --border-color-type1: #f8f8f8;
+
+}
+
+#header-wrap {
+   position: fixed;
+   background-color: white;
+   /* width: 100vw; */
+   left: 0;
+   right: 0;
+   border-bottom: 1px solid var(--border-color-type1);
+}
+
+#header-wrap #header {
+   display: flex;
+   align-items: center;
+   width: var(--content-width);
+   height: 85px;
+   margin: 0 auto;
+   box-sizing: border-box;
+   padding: 0 20px;
+}
